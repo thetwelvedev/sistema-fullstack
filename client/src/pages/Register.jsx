@@ -28,7 +28,7 @@ const Register = () => {
       }, 1500);
     } catch (err) {
       setLoading(false);
-      setError('Erro ao realizar cadastro. Tente novamente.'); [cite: 28]
+      setError('Erro ao realizar cadastro. Tente novamente.');
     }
   };
 
