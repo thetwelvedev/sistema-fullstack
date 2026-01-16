@@ -11,7 +11,6 @@ const appointmentRoutes = require('./routes/appointmentRoutes');
 
 // Inicializar o app
 const app = express();
-
 // Conectar ao banco de dados
 connectDB();
 
@@ -82,7 +81,7 @@ app.use((err, req, res, next) => {
 });
 
 // Iniciar servidor
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 const server = app.listen(PORT, () => {
   console.log(`
